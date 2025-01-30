@@ -671,6 +671,11 @@ a {
         justify-content: space-between;
         align-items: center;
     }
+    .parent:nth-child(3) > .image-place {
+        img {
+            filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.603)) brightness(1.3);
+        }
+    }
     > span {
         position: absolute;
         left: 20px;
@@ -746,6 +751,7 @@ a {
         img {
             position: relative;
             top: -150px;
+            filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.603));
         }
     }
 }
