@@ -377,7 +377,7 @@ a {
         width: 40%;
         img {
             width: 100%;
-            filter: grayscale(0.2);
+            filter: grayscale(0.2) drop-shadow(0 5px 10px rgba(0, 0, 0, 0.603));
         }
     }
 }
