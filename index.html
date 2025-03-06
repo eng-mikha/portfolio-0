@@ -12,7 +12,7 @@
         <div class="top">
             <div class="container">
                 <h1><i class="fa-brands fa-web-awesome"></i></h1>
-                <div class="ul">
+                <div class="ul" id="list">
                     <ul>
                         <li><a href="#about">about</a></li>
                         <li><a href="#portfolio">portfolio</a></li>
@@ -23,7 +23,7 @@
                     <input type="search" placeholder="search">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-                <span>
+                <span id="menu">
                     <p></p>
                     <p></p>
                     <p></p>
@@ -32,12 +32,12 @@
         </div>
         <div class="main-landing">
             <div class="container">
-                <div class="paragraph">
-                    <p>
+                <div class="paragraph hidden-top">
+                    <p class="hidden-top">
                         i'm <span> ahmed mokhtar </span><br>
                         civil engineer & front-end developer
                     </p>
-                    <a target="_blank" href="https://api.whatsapp.com/send?phone=201122338820">contact me</a>
+                    <a class="hidden-top" target="_blank" href="https://api.whatsapp.com/send?phone=201122338820">contact me</a>
                 </div>
                 <div class="my-ph">
                     <img src="attachments/front2 - Copy.png" alt="">
@@ -55,7 +55,7 @@
     </div>
     <div class="about" id="about">
         <div class="container">
-            <div class="paragraph">
+            <div class="paragraph hidden">
                 <h2>about</h2>
                 <p>Hi, I'm Ahmed Saad Mokhtar, a fourth-year student at 
                     the Faculty of Engineering, Tanta University, majoring
@@ -70,7 +70,7 @@
                     world of development.
                 </p>
             </div>
-            <div class="photo">
+            <div class="photo hidden">
                 <img src="attachments/aboutph3.png" alt="">
             </div>
         </div>
@@ -79,17 +79,17 @@
         <div class="container">
             <h2>my skills</h2>
             <div class="parent">
-                <div><img src="attachments/autocad-icon.svg" alt=""> AutoCAD</div>
-                <div><img src="attachments/sap2000-vector-logo.svg" alt=""> SAP</div>
-                <div><img src="attachments/revit.png" alt=""> Revet</div>
-                <div><img src="attachments/image-removebg-preview (1).png" alt=""> CSI Column</div>
-                <div><img src="attachments/html.png" alt=""> HTML</div>
-                <div><img src="attachments/text.png" alt=""> CSS</div>
-                <div><img src="attachments/javascript.png" alt=""> JS</div>
-                <div><img src="attachments/python.png" alt=""> Python</div>
-                <div><img src="attachments/office.png" alt=""> Microsoft office</div>
+                <div class="hidden"><img src="attachments/autocad-icon.svg" alt=""> AutoCAD</div>
+                <div class="hidden"><img src="attachments/sap2000-vector-logo.svg" alt=""> SAP</div>
+                <div class="hidden"><img src="attachments/revit.png" alt=""> Revet</div>
+                <div class="hidden"><img src="attachments/image-removebg-preview (1).png" alt=""> CSI Column</div>
+                <div class="hidden"><img src="attachments/html.png" alt=""> HTML</div>
+                <div class="hidden"><img src="attachments/text.png" alt=""> CSS</div>
+                <div class="hidden"><img src="attachments/javascript.png" alt=""> JS</div>
+                <div class="hidden"><img src="attachments/python.png" alt=""> Python</div>
+                <div class="hidden"><img src="attachments/office.png" alt=""> Microsoft office</div>
             </div>
-            <span>
+            <span class="hidden">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -111,9 +111,9 @@
     </div>
     <div class="portfolio" id="portfolio">
         <div class="container">
-            <h2>Portfolio</h2>
+            <h2 class="hidden">Portfolio</h2>
             <div class="parent">
-                <div>
+                <div class="hidden">
                     <img src="attachments/q.jpg" alt="">
                     <div>
                         <h3>Quran by Abo Ayman</h3>
@@ -121,7 +121,7 @@
                         <a target="_blank" href="https://eng-mikha.github.io/quran/">See More</a>
                     </div>
                 </div>
-                <div>
+                <div class="hidden">
                     <img src="attachments/j.jpg" alt="">
                     <div>
                         <h3>German</h3>
@@ -129,7 +129,7 @@
                         <a target="_blank" href="https://eng-mikha.github.io/duetch/">See More</a>
                     </div>
                 </div>
-                <div>
+                <div class="hidden">
                     <img src="attachments/t1.jpg" alt="">
                     <div>
                         <h3>Template One</h3>
@@ -137,7 +137,7 @@
                         <a target="_blank" href="https://eng-mikha.github.io/templete/">See More</a>
                     </div>
                 </div>
-                <div>
+                <div class="hidden">
                     <img src="attachments/t2.jpg" alt="">
                     <div>
                         <h3>Template Two</h3>
@@ -145,7 +145,7 @@
                         <a target="_blank" href="https://eng-mikha.github.io/templete-2/">See More</a>
                     </div>
                 </div>
-                <div>
+                <div class="hidden">
                     <img src="attachments/portfolio.jpg" alt="">
                     <div>
                         <h3>My Portfolio</h3>
@@ -160,14 +160,14 @@
     <div class="experience">
         <div class="container">
             <h2>Experience</h2>
-            <div class="parent">
+            <div class="parent hidden">
                 <span>2022</span>
                 <div>
                     <h3>Senior Front-End Developer</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At exercitationem nemo quas voluptates explicabo iure officia nesciunt non odit omnis ut, ratione quis, deleniti reprehenderit maiores quos velit pariatur consequuntur.</p>
                 </div>
             </div>
-            <div class="parent">
+            <div class="parent hidden">
                 <span>2023</span>
                 <div>
                     <h3>Front-End Developer</h3>
@@ -178,32 +178,32 @@
                 
     </div>
     <div class="testimonial">
-        <span>
+        <span class="hidden">
             <span></span><span></span>
             <span></span><span></span>
             <span></span><span></span>
         </span>
         <div class="parent">
             <div class="paragraph">
-                <h3>Testimonial</h3>
-                <p><span>The design quality</span>, flexibility, documentation 
+                <h3 class="hidden">Testimonial</h3>
+                <p class="hidden"><span>The design quality</span>, flexibility, documentation 
                     and support are all absolutely <span>excellent</span>. I buy
                     the Avada theme for all my clints, knowing that 
                     whatever they require, Avada will be able 
                     to delever.
                 </p>
-                <span>
+                <span class="hidden">
                     <h4>Ahmed Ayman</h4>
                     <p>ENG</p>
                 </span>
             </div>
-            <div class="image-place">
+            <div class="image-place hidden">
                 <img src="attachments/aboayman2.png" alt="">
             </div>
         </div>
         <div class="parent">
             <div class="paragraph">
-                <p>Working with Ahmed Mokhtar was <span>a fantastic experience</span>. The website they designed perfectly encapsulates our
+                <p class="hidden">Working with Ahmed Saad was <span>a fantastic experience</span>. The website they designed perfectly encapsulates our
                     brand
                     identity, featuring an attractive and user-friendly interface. Ahmed Saad was <span>professional, responsive to our
                         needs, and
@@ -211,12 +211,12 @@
                     anyone seeking
                     an outstanding website design.
                 </p>
-                <span>
+                <span class="hidden">
                     <h4>Abdallah Helmy</h4>
                     <p>ENG</p>
                 </span>
             </div>
-            <div class="image-place">
+            <div class="image-place hidden">
                 <img src="attachments/abdallah-removebg - Copy (2).png" alt="">
             </div>
         </div>
@@ -228,19 +228,19 @@
             <span></span>
         </div>
         <div class="container">
-            <div>
+            <div class="hidden">
                 <a target="_blank" href="mailto:a7medelfeky1@gmail.com">
                     <i class="fa-solid fa-envelope"></i> 
                     a7medelfeky1@gmail.com
                 </a>
             </div>
-            <div>
+            <div class="hidden">
                 <a target="_blank" href="https://www.facebook.com/profile.php?id=100022701706455">
                     <i class="fa-brands fa-square-facebook"></i> 
                     Ahmed S Elfeky (Facebook)
                 </a>
             </div>
-            <div>
+            <div class="hidden">
                 <a target="_blank" href="https://api.whatsapp.com/send?phone=201122338820">
                     <i class="fa-brands fa-square-whatsapp"></i> 
                     01122338820 (Whatsapp)
@@ -260,8 +260,9 @@
     </div>
     <div class="thanks">
         <div class="container">
-            <q>Thanks For Scrolling</q>
+            <q class="hidden">Thanks For Scrolling</q>
         </div>
     </div>
+    <script src="t.js"></script>
 </body>
 </html>
