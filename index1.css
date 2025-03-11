@@ -454,7 +454,7 @@ a {
         font-size: 25px;
         border-radius: 15px;
         box-shadow: 0 0 10px 0 #00000045;
-        transition: background-color 0.3s;
+        transition: all 0.3s;
         img {
             width: 100px;
         }
